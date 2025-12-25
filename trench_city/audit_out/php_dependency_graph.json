@@ -1,0 +1,1910 @@
+﻿[
+    {
+        "file":  "core\\audit.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Auth.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\autoload.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\bars.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\bootstrap.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Cache.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\config.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\ConfigManager.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\constants.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\db.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Docs.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Email.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\env.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\errors.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Event.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\flash.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\helpers.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\helpers_extended.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\init.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Inspector.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\layout.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\log.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\logger.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Model.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\rate_limit.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\redis.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Router.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\security.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\selftest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\session.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\Task.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\trenchcity-maintain.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\xp.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\cron\\daily_cleanup.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "core\\cron\\regenerate_bars.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\footer.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\header.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\postlogin-footer.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\postlogin-header.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\postlogin-sidebar.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\prelogin-footer.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\prelogin-header.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\sidebar.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "includes\\widgets\\bars_widget.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\achievements\\achievements_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\admin\\admin_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\bank\\bank_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\blackmarket\\blackmarket_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\bounties\\bounties_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\casino\\casino_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\chat\\chat_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\combat\\attack_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\combat\\combat_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\companies\\companies_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\crimes\\crimes_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\education\\education_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\events\\events_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\factions\\factions_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\forum\\forum_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\friends\\friends_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\gangs\\gangs2_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\gym\\gym_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\hospital\\hospital_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\items\\inventory_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\items\\item_detail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\jail\\jail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\jobs\\jobs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\leaderboards\\leaderboards_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\mail\\mail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\market\\market_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\meta\\meta_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\missions\\missions_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\newspaper\\newspaper_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\npcs\\npcs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\ocs\\ocs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\pets\\pets_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\player\\dashboard_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\properties\\properties_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\rewards\\rewards_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\settings\\settings_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\social\\social_feed_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\support\\support_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\territory\\territory_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\training\\training_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "modules\\travel\\travel_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\admin.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\admin_logs.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\auth_login_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\auth_register_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\autoloadtest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\bank.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\black_market.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\calendar.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\casino.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\city.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\combat.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\community_events.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\companies.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\core_status.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\crimes.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\dashboard.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\dbtest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\design-system.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\design-test.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\education.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\elimination.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\enemies.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\envtest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\error_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\extendedtest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\factions.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\forums.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\friends.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\gym.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\hall_of_fame.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\health.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\helptest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\home_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\hospital.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\index.php",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "public\\index_cinematic.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\inventory.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\items.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\jail.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\jobs.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\leaderboards.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\login.php",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "public\\login_new.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\logout.php",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "public\\mail.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\market.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\missions.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\newspaper.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\players.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\profile.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\progression.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\properties.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\recruit_citizens.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\redistest.php",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trenchcity/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "public\\register.php",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "public\\register_new.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\risk_reward.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\routetest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\rules.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\securitytest.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\settings.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\stock.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\targets.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\travel.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\vehicles.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\verify-email.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\achievements\\achievements_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\admin\\admin_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\bank\\bank_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\blackmarket\\blackmarket_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\bounties\\bounties_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\casino\\casino_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\chat\\chat_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\combat\\attack_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\companies\\companies_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\crimes\\crimes_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\education\\education_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\events\\events_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\factions\\factions_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\forum\\forum_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\friends\\friends_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\gangs2\\gangs2_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\gym\\gym_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\hospital\\hospital_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\items\\inventory_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\items\\item_detail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\jail\\jail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\jobs\\jobs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\leaderboards\\leaderboards_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\mail\\mail_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\market\\market_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\meta\\meta_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\missions\\missions_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\newspaper\\newspaper_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\npcs\\npcs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\ocs\\ocs_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\pets\\pets_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\player\\dashboard_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\properties\\properties_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\rewards\\rewards_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\settings\\settings_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\social\\social_feed_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\support\\support_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\territory\\territory_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\training\\training_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "public\\modules\\travel\\travel_shell.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "scripts\\health_check.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\AchievementService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\AdminService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\AuthService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\BankService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\BlackMarketService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\BountyService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\CasinoService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\ChatService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\CombatService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\CompanyService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\CrimeService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\EducationService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\EventService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\FactionService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\ForumService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\FriendsService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\GangService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\HospitalService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\ItemService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\JailService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\JobService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\LeaderboardService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\LogService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MailService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MarketService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MeritService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MessengerService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MetaService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\MissionService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\NewspaperService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\NotificationService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\PetService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\PlayerService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\PropertyService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\RewardService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\SettingsService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\SocialService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\StaffService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\SupportService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\TerritoryService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\TrainingService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "services\\TravelService.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\autoload.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\autoload_classmap.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\autoload_namespaces.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\autoload_psr4.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\autoload_real.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\autoload_static.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\ClassLoader.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\installed.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\InstalledVersions.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\composer\\platform_check.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\get_oauth_token.php",
+        "includes":  [
+                         {
+                             "target":  "vendor/autoload.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-af.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ar.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-as.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-az.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ba.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-be.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-bg.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-bn.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ca.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-cs.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-da.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-de.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-el.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-eo.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-es.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-et.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-fa.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-fi.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-fo.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-fr.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-gl.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-he.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-hi.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-hr.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-hu.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-hy.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-id.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-it.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ja.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ka.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ko.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ku.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-lt.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-lv.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-mg.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-mn.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ms.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-nb.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-nl.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-pl.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-pt.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-pt_br.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ro.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ru.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-si.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-sk.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-sl.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-sr.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-sr_latn.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-sv.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-tl.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-tr.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-uk.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-ur.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-vi.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-zh.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\language\\phpmailer.lang-zh_cn.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\DSNConfigurator.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\Exception.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\OAuth.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\OAuthTokenProvider.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\PHPMailer.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\POP3.php",
+        "includes":  [
+
+                     ]
+    },
+    {
+        "file":  "vendor\\phpmailer\\phpmailer\\src\\SMTP.php",
+        "includes":  [
+
+                     ]
+    }
+]

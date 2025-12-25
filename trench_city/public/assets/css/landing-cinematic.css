@@ -1,0 +1,690 @@
+/**
+ * ========================================
+ *  TRENCH CITY - CINEMATIC LANDING PAGE
+ *  Dark Luxury MMO Aesthetic
+ * ========================================
+ *
+ * Style: London Crime Empire / Luxury MMO
+ * Inspiration: Dark cinematic with gold accents
+ * Background: Westminster/Big Ben skyline
+ */
+
+/* ==================== BASE & BACKGROUND ==================== */
+
+body.landing-page {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #000000;
+    overflow-x: hidden;
+    color: #F9FAFB;
+}
+
+/* Full-screen cinematic background with London skyline */
+.landing-hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background:
+        linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(5,11,22,0.9) 50%, rgba(11,18,32,0.9) 100%),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect fill="%23050B16"/></svg>') center/cover;
+    /* NOTE: Replace above data URL with actual London skyline image */
+    /* background-image: url('/assets/imgs/london-skyline.jpg'); */
+}
+
+/* Atmospheric overlay effects */
+.landing-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(ellipse at top, rgba(212,175,55,0.37) 0%, transparent 60%),
+        radial-gradient(ellipse at bottom left, rgba(29,78,216,0.33) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Gold accent particles/fog effect */
+.landing-hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgba(212,175,55,0.3) 0%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* ==================== NAVIGATION ==================== */
+
+.landing-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background: linear-gradient(180deg, rgba(5,11,22,0.9) 0%, transparent 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(212,175,55,0.35);
+}
+
+.landing-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    color: #F9FAFB;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    transition: transform 0.3s ease;
+}
+
+.landing-logo:hover {
+    transform: translateY(-2px);
+}
+
+.landing-logo-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #D4AF37 0%, #C5A028 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #000000;
+    box-shadow: 0 0 30px rgba(212,175,55,0.65);
+}
+
+.landing-logo-text {
+    background: linear-gradient(135deg, #F9FAFB 0%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.landing-nav-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+/* ==================== HERO CONTENT ==================== */
+
+.landing-hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.landing-eyebrow {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: rgba(212,175,55,0.4);
+    border: 1px solid rgba(212,175,55,0.55);
+    border-radius: 50px;
+    color: #D4AF37;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(212,175,55,0.45);
+}
+
+.landing-hero-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+    text-shadow:
+        0 2px 10px rgba(0,0,0,0.75),
+        0 0 40px rgba(212,175,55,0.55);
+}
+
+.landing-hero-title .gold-text {
+    background: linear-gradient(135deg, #F5C451 0%, #D4AF37 50%, #C5A028 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.landing-hero-subtitle {
+    font-size: 1.375rem;
+    line-height: 1.6;
+    color: #D1D5DB;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.9);
+}
+
+/* ==================== CTA BUTTONS ==================== */
+
+.landing-cta-group {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.landing-btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 12px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-btn-primary {
+    background: linear-gradient(135deg, #D4AF37 0%, #C5A028 100%);
+    color: #000000;
+    box-shadow:
+        0 4px 20px rgba(212,175,55,0.65),
+        0 0 40px rgba(212,175,55,0.45);
+    border: 2px solid transparent;
+}
+
+.landing-btn-primary::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(135deg, #F5C451, #D4AF37, #C5A028);
+    border-radius: 12px;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.landing-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 8px 30px rgba(212,175,55,0.85),
+        0 0 60px rgba(212,175,55,0.65);
+}
+
+.landing-btn-primary:hover::before {
+    opacity: 1;
+}
+
+.landing-btn-secondary {
+    background: rgba(31,41,55,0.85);
+    color: #F9FAFB;
+    border: 2px solid rgba(212,175,55,0.55);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.landing-btn-secondary:hover {
+    background: rgba(31,41,55,0.9);
+    border-color: #D4AF37;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px rgba(212,175,55,0.45);
+}
+
+.landing-btn:active {
+    transform: translateY(-1px);
+}
+
+/* ==================== STAT CARDS (GLASSMORPHISM) ==================== */
+
+.landing-stats {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.landing-stat-card {
+    background: rgba(17,24,39,0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(212,175,55,0.45);
+    border-radius: 16px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-stat-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top, rgba(212,175,55,0.3) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.landing-stat-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(212,175,55,0.75);
+    box-shadow: 0 10px 40px rgba(212,175,55,0.45);
+}
+
+.landing-stat-card:hover::before {
+    opacity: 1;
+}
+
+.landing-stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 20px rgba(212,175,55,0.75));
+}
+
+.landing-stat-value {
+    font-size: 2.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #F9FAFB 0%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.landing-stat-label {
+    font-size: 0.875rem;
+    color: #9CA3AF;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+/* ==================== FEATURES SECTION ==================== */
+
+.landing-features {
+    position: relative;
+    background: linear-gradient(180deg, rgba(11,18,32,0.9) 0%, rgba(5,7,11,0.9) 100%);
+    padding: 6rem 2rem;
+    border-top: 1px solid rgba(212,175,55,0.35);
+}
+
+.landing-features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.landing-section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #F9FAFB 0%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.landing-section-subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #9CA3AF;
+    margin-bottom: 4rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.landing-feature-card {
+    background: rgba(17,24,39,0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(212,175,55,0.4);
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.landing-feature-card:hover {
+    border-color: rgba(212,175,55,0.65);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 50px rgba(212,175,55,0.45);
+}
+
+.landing-feature-card:hover::before {
+    opacity: 1;
+}
+
+.landing-feature-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: rgba(212,175,55,0.35);
+    border: 2px solid rgba(212,175,55,0.55);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.landing-feature-card:hover .landing-feature-icon {
+    background: rgba(212,175,55,0.45);
+    border-color: #D4AF37;
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(212,175,55,0.55);
+}
+
+.landing-feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F9FAFB;
+    margin-bottom: 1rem;
+}
+
+.landing-feature-description {
+    font-size: 1rem;
+    color: #9CA3AF;
+    line-height: 1.6;
+}
+
+/* ==================== LIVE WORLD PANEL ==================== */
+
+.landing-world-snapshot {
+    position: relative;
+    max-width: 1200px;
+    margin: 6rem auto 0;
+    padding: 0 2rem;
+}
+
+.landing-world-panel {
+    background: rgba(17,24,39,0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(212,175,55,0.55);
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.75);
+    position: relative;
+}
+
+.landing-world-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(212,175,55,0.45);
+}
+
+.landing-world-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #D4AF37;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.landing-live-indicator {
+    width: 12px;
+    height: 12px;
+    background: #10B981;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #10B981;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.landing-world-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.landing-world-metric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(31,41,55,0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(212,175,55,0.35);
+}
+
+.landing-world-metric-label {
+    font-size: 0.9375rem;
+    color: #9CA3AF;
+    font-weight: 600;
+}
+
+.landing-world-metric-value {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #D4AF37;
+}
+
+/* ==================== FOOTER ==================== */
+
+.landing-footer {
+    background: rgba(5,7,11,0.9);
+    border-top: 1px solid rgba(212,175,55,0.35);
+    padding: 3rem 2rem;
+    text-align: center;
+    color: #6B7280;
+}
+
+.landing-footer-logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #D4AF37;
+    margin-bottom: 1rem;
+}
+
+.landing-footer-text {
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing-footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.landing-footer-link {
+    color: #9CA3AF;
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s ease;
+}
+
+.landing-footer-link:hover {
+    color: #D4AF37;
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+@media (max-width: 1024px) {
+    .landing-hero-title {
+        font-size: 3.5rem;
+    }
+
+    .landing-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .landing-feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-nav {
+        padding: 1rem;
+    }
+
+    .landing-logo {
+        font-size: 1.25rem;
+    }
+
+    .landing-logo-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+
+    .landing-hero-title {
+        font-size: 2.5rem;
+    }
+
+    .landing-hero-subtitle {
+        font-size: 1.125rem;
+    }
+
+    .landing-cta-group {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .landing-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .landing-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .landing-feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .landing-world-content {
+        grid-template-columns: 1fr;
+    }
+
+    .landing-section-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .landing-hero-title {
+        font-size: 2rem;
+    }
+
+    .landing-stat-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .landing-feature-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .landing-world-panel {
+        padding: 2rem 1.5rem;
+    }
+}
+
+/* ==================== ANIMATIONS ==================== */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.landing-hero-content > * {
+    animation: fadeInUp 0.8s ease-out backwards;
+}
+
+.landing-eyebrow {
+    animation-delay: 0.1s;
+}
+
+.landing-hero-title {
+    animation-delay: 0.2s;
+}
+
+.landing-hero-subtitle {
+    animation-delay: 0.3s;
+}
+
+.landing-cta-group {
+    animation-delay: 0.4s;
+}
+
+.landing-stat-card {
+    animation: fadeInUp 0.6s ease-out backwards;
+}
+
+.landing-stat-card:nth-child(1) { animation-delay: 0.5s; }
+.landing-stat-card:nth-child(2) { animation-delay: 0.6s; }
+.landing-stat-card:nth-child(3) { animation-delay: 0.7s; }
+.landing-stat-card:nth-child(4) { animation-delay: 0.8s; }
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+    "name": "trench-city/v2",
+    "description": "Trench City V2 - Street RPG Game",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "files": [
+            "core/bootstrap.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

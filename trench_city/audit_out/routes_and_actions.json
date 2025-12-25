@@ -1,0 +1,1245 @@
+﻿[
+    {
+        "entry":  "public\\admin.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\admin_logs.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\auth_login_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\auth_register_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\autoloadtest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\bank.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\black_market.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\calendar.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\casino.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\city.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\combat.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\community_events.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\companies.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\core_status.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\crimes.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\dashboard.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\dbtest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\design-system.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\design-test.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\education.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\elimination.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\enemies.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\envtest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\error_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\extendedtest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\factions.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\forums.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\friends.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\gym.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\hall_of_fame.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\health.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\helptest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\home_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\hospital.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\index.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "entry":  "public\\index_cinematic.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\inventory.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\items.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\jail.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\jobs.php",
+        "auth_guard":  true,
+        "csrf":  true,
+        "post_actions":  [
+                             "work_job",
+                             "csrf_token",
+                             "job_id"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\leaderboards.php",
+        "auth_guard":  true,
+        "csrf":  true,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\login.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  [
+                             "csrf_token",
+                             "email",
+                             "password"
+                         ],
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "entry":  "public\\login_new.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  [
+                             "csrf_token",
+                             "email",
+                             "password"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\logout.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  "csrf_token",
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "entry":  "public\\mail.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\market.php",
+        "auth_guard":  true,
+        "csrf":  true,
+        "post_actions":  [
+                             "buy_item",
+                             "csrf_token",
+                             "item_id",
+                             "equip_item",
+                             "inventory_id",
+                             "unequip_item",
+                             "sell_item"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\missions.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\newspaper.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\players.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\profile.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\progression.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\properties.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\recruit_citizens.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\redistest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+                         {
+                             "target":  "/var/www/trenchcity/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "entry":  "public\\register.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  [
+                             "csrf_token",
+                             "name",
+                             "email",
+                             "password",
+                             "confirm"
+                         ],
+        "includes":  [
+                         {
+                             "target":  "/var/www/trench_city/core/bootstrap.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-header.php",
+                             "resolved":  null,
+                             "exists":  false
+                         },
+                         {
+                             "target":  "/var/www/trench_city/includes/prelogin-footer.php",
+                             "resolved":  null,
+                             "exists":  false
+                         }
+                     ]
+    },
+    {
+        "entry":  "public\\register_new.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  [
+                             "csrf_token",
+                             "g-recaptcha-response",
+                             "name",
+                             "email",
+                             "password",
+                             "confirm"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\risk_reward.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\routetest.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\rules.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\securitytest.php",
+        "auth_guard":  false,
+        "csrf":  true,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\settings.php",
+        "auth_guard":  true,
+        "csrf":  true,
+        "post_actions":  [
+                             "change_password",
+                             "csrf_token",
+                             "current_password",
+                             "new_password",
+                             "confirm_password",
+                             "change_email",
+                             "new_email",
+                             "password"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\stock.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\targets.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\travel.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\vehicles.php",
+        "auth_guard":  true,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\verify-email.php",
+        "auth_guard":  true,
+        "csrf":  true,
+        "post_actions":  [
+                             "action",
+                             "csrf_token"
+                         ],
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\achievements\\achievements_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\admin\\admin_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\bank\\bank_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\blackmarket\\blackmarket_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\bounties\\bounties_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\casino\\casino_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\chat\\chat_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\combat\\attack_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\companies\\companies_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\crimes\\crimes_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\education\\education_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\events\\events_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\factions\\factions_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\forum\\forum_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\friends\\friends_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\gangs2\\gangs2_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\gym\\gym_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\hospital\\hospital_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\items\\inventory_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\items\\item_detail_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\jail\\jail_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\jobs\\jobs_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\leaderboards\\leaderboards_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\mail\\mail_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\market\\market_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\meta\\meta_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\missions\\missions_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\newspaper\\newspaper_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\npcs\\npcs_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\ocs\\ocs_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\pets\\pets_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\player\\dashboard_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\properties\\properties_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\rewards\\rewards_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\settings\\settings_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\social\\social_feed_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\support\\support_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\territory\\territory_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\training\\training_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    },
+    {
+        "entry":  "public\\modules\\travel\\travel_shell.php",
+        "auth_guard":  false,
+        "csrf":  false,
+        "post_actions":  {
+
+                         },
+        "includes":  [
+
+                     ]
+    }
+]

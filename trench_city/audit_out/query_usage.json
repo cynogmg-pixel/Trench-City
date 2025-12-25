@@ -1,0 +1,320 @@
+﻿[
+    {
+        "table":  "Password",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "email_verification_logs",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "COUNT",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "balance",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "COLUMN_NAME",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "bt",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "every",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "energy_last_regen",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "stat",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "bars",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "the",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "jail",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "u",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "1",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "gym_id",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "user_inventory",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "h",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "player_stats",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "user",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "player_bars",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "Provider",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "again",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "cl",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "email_verified",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "users",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "failed",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "username",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "Email",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "tl",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "COALESCE",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "player",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "energy",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "worked_at",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "training_logs",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "Dropdown",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "id",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "timed",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "t",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "gym_unlocks",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "m",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "mail_messages",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "all",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "combat_logs",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "crime_logs",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "market_transactions",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "database",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "config_key",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "i",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "SUM",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "level",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "config_value",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "bank_transactions",
+        "columns":  [
+
+                    ]
+    },
+    {
+        "table":  "user_job_history",
+        "columns":  [
+
+                    ]
+    }
+]

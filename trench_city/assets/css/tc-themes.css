@@ -1,0 +1,104 @@
+/**
+ * TRENCH CITY THEME DEFINITIONS - Dark Luxury
+ * Applies design tokens to create the Dark Luxury theme
+ */
+
+@import url('tc-tokens.css');
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:16px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{font-family:var(--tc-font-sans);font-size:var(--tc-text-base);font-weight:var(--tc-weight-normal);line-height:var(--tc-leading-normal);color:var(--tc-text-primary);background-color:var(--tc-bg-page);min-height:100vh;overflow-x:hidden}
+
+body::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(5,7,11,0.9) 0%,rgba(11,18,32,0.9) 100%),radial-gradient(ellipse at top right,rgba(29,78,216,0.28) 0%,transparent 50%),radial-gradient(ellipse at bottom left,rgba(212,175,55,0.26) 0%,transparent 50%);z-index:-1;pointer-events:none}
+
+html[data-theme='light'] body{color:#0f172a;background-color:#f7f8fb}
+
+html[data-theme='light'] body::before{background:linear-gradient(140deg,rgba(255,255,255,0.9) 0%,rgba(237,239,245,0.9) 100%),radial-gradient(ellipse at top right,rgba(212,175,55,0.32) 0%,transparent 50%),radial-gradient(ellipse at bottom left,rgba(15,23,42,0.26) 0%,transparent 50%)}
+
+h1,h2,h3,h4,h5,h6{font-weight:var(--tc-weight-bold);line-height:var(--tc-leading-tight);color:var(--tc-text-gold);margin-bottom:var(--tc-space-md)}
+h1{font-size:var(--tc-text-4xl);letter-spacing:var(--tc-tracking-tight)}
+h2{font-size:var(--tc-text-3xl)}
+h3{font-size:var(--tc-text-2xl)}
+h4{font-size:var(--tc-text-xl)}
+h5,h6{font-size:var(--tc-text-lg)}
+
+p{margin-bottom:var(--tc-space-md);color:var(--tc-text-secondary)}
+a{color:var(--tc-gold);text-decoration:none;transition:color var(--tc-transition-fast)}
+a:hover{color:var(--tc-gold-bright)}
+a:active{color:var(--tc-gold-dark)}
+
+::selection{background-color:var(--tc-gold);color:var(--tc-black)}
+::-moz-selection{background-color:var(--tc-gold);color:var(--tc-black)}
+
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:var(--tc-bg-nav);border-radius:var(--tc-border-radius-sm)}
+::-webkit-scrollbar-thumb{background:var(--tc-grey-mid);border-radius:var(--tc-border-radius-sm);border:2px solid var(--tc-bg-nav)}
+::-webkit-scrollbar-thumb:hover{background:var(--tc-gold)}
+
+:focus-visible{outline:2px solid var(--tc-gold);outline-offset:2px}
+
+/* ============================================================================
+   LIGHT THEME OVERRIDES
+   ============================================================================ */
+
+html[data-theme='light'] .tc-sidebar {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+}
+
+html[data-theme='light'] .tc-sidebar-info {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(249, 250, 251, 0.9));
+    border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+html[data-theme='light'] .tc-sidebar-section-title {
+    color: rgba(212, 175, 55, 0.9);
+}
+
+html[data-theme='light'] .tc-sidebar-link {
+    color: rgba(51, 65, 85, 0.9);
+}
+
+html[data-theme='light'] .tc-sidebar-link:hover {
+    background: rgba(212, 175, 55, 0.32);
+    color: rgba(180, 134, 21, 0.9);
+}
+
+html[data-theme='light'] .tc-sidebar-link.active {
+    background: rgba(15, 23, 42, 0.28);
+    color: #0f172a;
+}
+
+html[data-theme='light'] .tc-sidebar-icon {
+    background: rgba(0, 0, 0, 0.24);
+}
+
+html[data-theme='light'] .tc-sidebar-link:hover .tc-sidebar-icon {
+    background: rgba(212, 175, 55, 0.4);
+}
+
+html[data-theme='light'] .tc-sidebar-link.active .tc-sidebar-icon {
+    background: rgba(212, 175, 55, 0.45);
+}
+
+html[data-theme='light'] .tc-main-column {
+    background: linear-gradient(160deg, rgba(249, 250, 251, 0.9), rgba(255, 255, 255, 0.9));
+}
+
+html[data-theme='light'] .card,
+html[data-theme='light'] .tc-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+}
+
+html[data-theme='light'] .tc-app-header {
+    background: var(--tc-surface-glass);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+
+
+
+

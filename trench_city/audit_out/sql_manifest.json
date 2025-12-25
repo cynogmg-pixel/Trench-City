@@ -1,0 +1,1418 @@
+﻿[
+    {
+        "table":  "bank_transactions",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "transaction_type",
+                            "definition":  "ENUM(\u0027deposit\u0027"
+                        },
+                        {
+                            "name":  "amount",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "cash_after",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "bank_after",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "transfer_to_user_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "transfer_from_user_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "VARCHAR(255) NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_user_transactions (user_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_transfer_to (transfer_to_user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_transfer_from (transfer_from_user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_created (created_at)"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_bank_trans_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_bank_trans_to FOREIGN KEY (transfer_to_user_id) REFERENCES users(id) ON DELETE SET NULL"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_bank_trans_from FOREIGN KEY (transfer_from_user_id) REFERENCES users(id) ON DELETE SET NULL"
+                        }
+                    ],
+        "source":  "core\\bank_schema.sql"
+    },
+    {
+        "table":  "bank_config",
+        "columns":  [
+                        {
+                            "name":  "config_key",
+                            "definition":  "VARCHAR(50) PRIMARY KEY"
+                        },
+                        {
+                            "name":  "config_value",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        }
+                    ],
+        "source":  "core\\bank_schema.sql"
+    },
+    {
+        "table":  "combat_logs",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "attacker_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "defender_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "success",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "damage_dealt",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "xp_earned",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "cash_stolen",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "attacker_total_stats",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "defender_total_stats",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "attacker_weapon_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "attacker_armor_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "defender_weapon_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "defender_armor_id",
+                            "definition":  "BIGINT UNSIGNED NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "outcome",
+                            "definition":  "ENUM(\u0027win\u0027"
+                        },
+                        {
+                            "name":  "hospital_time",
+                            "definition":  "INT UNSIGNED NULL DEFAULT NULL COMMENT \u0027Minutes in hospital\u0027"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_attacker (attacker_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_defender (defender_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_created (created_at)"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_combat_attacker FOREIGN KEY (attacker_id) REFERENCES users(id) ON DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_combat_defender FOREIGN KEY (defender_id) REFERENCES users(id) ON DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\combat_schema.sql"
+    },
+    {
+        "table":  "combat_config",
+        "columns":  [
+                        {
+                            "name":  "config_key",
+                            "definition":  "VARCHAR(50) PRIMARY KEY"
+                        },
+                        {
+                            "name":  "config_value",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        }
+                    ],
+        "source":  "core\\combat_schema.sql"
+    },
+    {
+        "table":  "crimes",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(128) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT NULL"
+                        },
+                        {
+                            "name":  "category",
+                            "definition":  "ENUM(\u0027petty\u0027"
+                        },
+                        {
+                            "name":  "nerve_cost",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "min_level",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "min_stats",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "cash_min",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "cash_max",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "xp_reward",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "base_success_rate",
+                            "definition":  "DECIMAL(5"
+                        },
+                        {
+                            "name":  "jail_chance",
+                            "definition":  "DECIMAL(5"
+                        },
+                        {
+                            "name":  "hospital_chance",
+                            "definition":  "DECIMAL(5"
+                        },
+                        {
+                            "name":  "difficulty",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crimes_category (category)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crimes_min_level (min_level)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crimes_difficulty (difficulty)"
+                        }
+                    ],
+        "source":  "core\\crimes_schema.sql"
+    },
+    {
+        "table":  "crime_logs",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "crime_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "success",
+                            "definition":  "TINYINT(1) NOT NULL"
+                        },
+                        {
+                            "name":  "cash_earned",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "xp_earned",
+                            "definition":  "INT UNSIGNED DEFAULT 0"
+                        },
+                        {
+                            "name":  "jail",
+                            "definition":  "TINYINT(1) DEFAULT 0"
+                        },
+                        {
+                            "name":  "hospital",
+                            "definition":  "TINYINT(1) DEFAULT 0"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_crime_logs_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_crime_logs_crime"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (crime_id) REFERENCES crimes(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crime_logs_user (user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crime_logs_crime (crime_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crime_logs_created (created_at)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_crime_logs_success (success)"
+                        }
+                    ],
+        "source":  "core\\crimes_schema.sql"
+    },
+    {
+        "table":  "email_verification_logs",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "email",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "token",
+                            "definition":  "VARCHAR(64) NOT NULL"
+                        },
+                        {
+                            "name":  "sent_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "verified_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "ip_address",
+                            "definition":  "VARCHAR(45) NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "user_agent",
+                            "definition":  "TEXT NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_user_id (user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_token (token)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_sent_at (sent_at)"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_email_verification_user FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\email_verification_schema.sql"
+    },
+    {
+        "table":  "email_config",
+        "columns":  [
+                        {
+                            "name":  "config_key",
+                            "definition":  "VARCHAR(50) PRIMARY KEY"
+                        },
+                        {
+                            "name":  "config_value",
+                            "definition":  "TEXT NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        }
+                    ],
+        "source":  "core\\email_verification_schema.sql"
+    },
+    {
+        "table":  "users",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "username",
+                            "definition":  "VARCHAR(32)  NOT NULL"
+                        },
+                        {
+                            "name":  "email",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "password_hash",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "xp",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "level",
+                            "definition":  "INT UNSIGNED    NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "cash",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "bank_balance",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "status",
+                            "definition":  "ENUM(\u0027active\u0027"
+                        },
+                        {
+                            "name":  "last_login_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "last_ip",
+                            "definition":  "VARCHAR(45) NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_users_username (username)"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_users_email (email)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_users_status (status)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_users_last_login (last_login_at)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "player_stats",
+        "columns":  [
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL PRIMARY KEY"
+                        },
+                        {
+                            "name":  "strength",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "speed",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "defense",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "dexterity",
+                            "definition":  "BIGINT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_player_stats_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "player_bars",
+        "columns":  [
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL PRIMARY KEY"
+                        },
+                        {
+                            "name":  "energy_current",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "energy_max",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 100"
+                        },
+                        {
+                            "name":  "nerve_current",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "nerve_max",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 15"
+                        },
+                        {
+                            "name":  "happy_current",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "happy_max",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 100"
+                        },
+                        {
+                            "name":  "life_current",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 100"
+                        },
+                        {
+                            "name":  "life_max",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 100"
+                        },
+                        {
+                            "name":  "last_regen_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_player_bars_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "player_settings",
+        "columns":  [
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL PRIMARY KEY"
+                        },
+                        {
+                            "name":  "show_online_status",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "dark_mode",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_player_settings_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "item_categories",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(64) NOT NULL"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_item_categories_name (name)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "items",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "category_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(128) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT NULL"
+                        },
+                        {
+                            "name":  "rarity",
+                            "definition":  "TINYINT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "stackable",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "base_price",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "energy_restore",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "nerve_restore",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "happy_restore",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "life_restore",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_items_category"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (category_id) REFERENCES item_categories(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_items_category (category_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_items_rarity (rarity)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "user_items",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "item_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "qty",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "equipped",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_user_items_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_user_items_item"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (item_id) REFERENCES items(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_user_items_user_item (user_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_user_items_user (user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_user_items_item (item_id)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "gyms",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(128) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT NULL"
+                        },
+                        {
+                            "name":  "tier",
+                            "definition":  "TINYINT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "unlock_cost_cash",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "unlock_cost_bank",
+                            "definition":  "DECIMAL(15"
+                        },
+                        {
+                            "name":  "energy_cost_per_train",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 5"
+                        },
+                        {
+                            "name":  "base_stat_gain",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 1"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_gyms_name (name)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_gyms_tier (tier)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "gym_unlocks",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "gym_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "unlocked_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_gym_unlocks_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_gym_unlocks_gym"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (gym_id) REFERENCES gyms(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY uq_gym_unlocks_user_gym (user_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_gym_unlocks_user (user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_gym_unlocks_gym (gym_id)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "training_logs",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "gym_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "stat_trained",
+                            "definition":  "ENUM(\u0027strength\u0027"
+                        },
+                        {
+                            "name":  "energy_spent",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "stat_gain",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "xp_gained",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_training_logs_user"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (user_id) REFERENCES users(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_training_logs_gym"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (gym_id) REFERENCES gyms(id)"
+                        },
+                        {
+                            "name":  "ON",
+                            "definition":  "DELETE CASCADE"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_training_logs_user (user_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_training_logs_gym (gym_id)"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_training_logs_created_at (created_at)"
+                        }
+                    ],
+        "source":  "core\\init_schema_v0.sql"
+    },
+    {
+        "table":  "jobs",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(100) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "tier",
+                            "definition":  "ENUM(\u0027legitimate\u0027"
+                        },
+                        {
+                            "name":  "hourly_pay",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 50"
+                        },
+                        {
+                            "name":  "min_level",
+                            "definition":  "INT UNSIGNED DEFAULT 1"
+                        },
+                        {
+                            "name":  "icon",
+                            "definition":  "VARCHAR(50) DEFAULT \u0027job\u0027"
+                        },
+                        {
+                            "name":  "is_active",
+                            "definition":  "BOOLEAN DEFAULT TRUE"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_tier (tier)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_active (is_active)"
+                        }
+                    ],
+        "source":  "core\\jobs_schema.sql"
+    },
+    {
+        "table":  "user_job_history",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "job_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "hours_worked",
+                            "definition":  "DECIMAL(4"
+                        },
+                        {
+                            "name":  "earnings",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "worked_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (job_id) REFERENCES jobs(id) ON DELETE CASCADE"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_user (user_id)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_worked_at (worked_at)"
+                        }
+                    ],
+        "source":  "core\\jobs_schema.sql"
+    },
+    {
+        "table":  "user_current_job",
+        "columns":  [
+                        {
+                            "name":  "user_id",
+                            "definition":  "INT UNSIGNED PRIMARY KEY"
+                        },
+                        {
+                            "name":  "job_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "hired_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "last_worked_at",
+                            "definition":  "TIMESTAMP NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (job_id) REFERENCES jobs(id) ON DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\jobs_schema.sql"
+    },
+    {
+        "table":  "mail_messages",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "from_user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "to_user_id",
+                            "definition":  "BIGINT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "subject",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "body",
+                            "definition":  "TEXT NOT NULL"
+                        },
+                        {
+                            "name":  "is_read",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "is_deleted_by_sender",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "is_deleted_by_recipient",
+                            "definition":  "TINYINT(1) NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "sent_at",
+                            "definition":  "DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "read_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_to_user (to_user_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_from_user (from_user_id"
+                        },
+                        {
+                            "name":  "KEY",
+                            "definition":  "idx_unread (to_user_id"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_mail_from FOREIGN KEY (from_user_id) REFERENCES users(id) ON DELETE CASCADE"
+                        },
+                        {
+                            "name":  "CONSTRAINT",
+                            "definition":  "fk_mail_to FOREIGN KEY (to_user_id) REFERENCES users(id) ON DELETE CASCADE"
+                        }
+                    ],
+        "source":  "core\\mail_schema.sql"
+    },
+    {
+        "table":  "mail_config",
+        "columns":  [
+                        {
+                            "name":  "config_key",
+                            "definition":  "VARCHAR(50) PRIMARY KEY"
+                        },
+                        {
+                            "name":  "config_value",
+                            "definition":  "VARCHAR(255) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "DATETIME NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP"
+                        }
+                    ],
+        "source":  "core\\mail_schema.sql"
+    },
+    {
+        "table":  "market_items",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "name",
+                            "definition":  "VARCHAR(100) NOT NULL"
+                        },
+                        {
+                            "name":  "description",
+                            "definition":  "TEXT"
+                        },
+                        {
+                            "name":  "category",
+                            "definition":  "ENUM(\u0027weapon\u0027"
+                        },
+                        {
+                            "name":  "item_type",
+                            "definition":  "VARCHAR(50) NOT NULL COMMENT \u0027pistol"
+                        },
+                        {
+                            "name":  "base_price",
+                            "definition":  "INT UNSIGNED NOT NULL DEFAULT 0"
+                        },
+                        {
+                            "name":  "stock_quantity",
+                            "definition":  "INT UNSIGNED DEFAULT NULL COMMENT \u0027NULL = unlimited stock\u0027"
+                        },
+                        {
+                            "name":  "min_level",
+                            "definition":  "INT UNSIGNED DEFAULT 1"
+                        },
+                        {
+                            "name":  "strength_bonus",
+                            "definition":  "INT DEFAULT 0"
+                        },
+                        {
+                            "name":  "defense_bonus",
+                            "definition":  "INT DEFAULT 0"
+                        },
+                        {
+                            "name":  "speed_bonus",
+                            "definition":  "INT DEFAULT 0"
+                        },
+                        {
+                            "name":  "health_bonus",
+                            "definition":  "INT DEFAULT 0"
+                        },
+                        {
+                            "name":  "energy_bonus",
+                            "definition":  "INT DEFAULT 0"
+                        },
+                        {
+                            "name":  "icon",
+                            "definition":  "VARCHAR(50) DEFAULT \u0027item\u0027"
+                        },
+                        {
+                            "name":  "is_active",
+                            "definition":  "BOOLEAN DEFAULT TRUE"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "updated_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_category (category)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_active (is_active)"
+                        }
+                    ],
+        "source":  "core\\market_schema.sql"
+    },
+    {
+        "table":  "user_inventory",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "item_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "quantity",
+                            "definition":  "INT UNSIGNED DEFAULT 1"
+                        },
+                        {
+                            "name":  "equipped",
+                            "definition":  "BOOLEAN DEFAULT FALSE"
+                        },
+                        {
+                            "name":  "purchased_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "FOREIGN",
+                            "definition":  "KEY (item_id) REFERENCES market_items(id) ON DELETE CASCADE"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_user (user_id)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_item (item_id)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_equipped (equipped)"
+                        },
+                        {
+                            "name":  "UNIQUE",
+                            "definition":  "KEY unique_user_item (user_id"
+                        }
+                    ],
+        "source":  "core\\market_schema.sql"
+    },
+    {
+        "table":  "market_transactions",
+        "columns":  [
+                        {
+                            "name":  "id",
+                            "definition":  "INT UNSIGNED AUTO_INCREMENT PRIMARY KEY"
+                        },
+                        {
+                            "name":  "user_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "item_id",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "transaction_type",
+                            "definition":  "ENUM(\u0027buy\u0027"
+                        },
+                        {
+                            "name":  "quantity",
+                            "definition":  "INT UNSIGNED DEFAULT 1"
+                        },
+                        {
+                            "name":  "price_per_unit",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "total_price",
+                            "definition":  "INT UNSIGNED NOT NULL"
+                        },
+                        {
+                            "name":  "created_at",
+                            "definition":  "TIMESTAMP DEFAULT CURRENT_TIMESTAMP"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_user (user_id)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_type (transaction_type)"
+                        },
+                        {
+                            "name":  "INDEX",
+                            "definition":  "idx_created (created_at)"
+                        }
+                    ],
+        "source":  "core\\market_schema.sql"
+    }
+]

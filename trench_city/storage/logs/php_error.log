@@ -1,0 +1,54 @@
+[07-Dec-2025 15:56:47 Europe/London] [BOOTSTRAP] Redis unavailable or unauthenticated.
+[07-Dec-2025 15:56:47 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function tc_redis_check() in /var/www/trenchcity/public/redistest.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/trenchcity/public/redistest.php on line 5
+[07-Dec-2025 16:02:14 Europe/London] [BOOTSTRAP] Redis unavailable or unauthenticated.
+[07-Dec-2025 16:07:36 Europe/London] [BOOTSTRAP] Redis unavailable or unauthenticated.
+[07-Dec-2025 16:07:37 Europe/London] [BOOTSTRAP] Redis unavailable or unauthenticated.
+[07-Dec-2025 16:12:02 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function tc_db_check() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 1
+[07-Dec-2025 16:13:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function tc_db_check() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 1
+[07-Dec-2025 16:19:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function app_env() in /var/www/trenchcity/public/helptest.php:13
+Stack trace:
+#0 {main}
+  thrown in /var/www/trenchcity/public/helptest.php on line 13
+[07-Dec-2025 16:21:34 Europe/London] PHP Fatal error:  Cannot redeclare db() (previously declared in /var/www/trenchcity/core/db.php:64) in /var/www/trenchcity/core/helpers.php on line 109
+[07-Dec-2025 16:21:35 Europe/London] PHP Fatal error:  Cannot redeclare db() (previously declared in /var/www/trenchcity/core/db.php:64) in /var/www/trenchcity/core/helpers.php on line 109
+[07-Dec-2025 16:22:49 Europe/London] PHP Parse error:  syntax error, unexpected token "}", expecting "{" in /var/www/trenchcity/core/helpers.php on line 110
+[07-Dec-2025 17:41:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function system_info() in /var/www/trenchcity/public/core_status.php:11
+Stack trace:
+#0 {main}
+  thrown in /var/www/trenchcity/public/core_status.php on line 11
+[07-Dec-2025 17:49:59 Europe/London] PHP Fatal error:  Uncaught Error: Class "TestModel" not found in /var/www/trenchcity/public/autoloadtest.php:5
+Stack trace:
+#0 {main}
+  thrown in /var/www/trenchcity/public/autoloadtest.php on line 5
+[07-Dec-2025 18:31:10 Europe/London] PHP Warning:  Undefined global variable $_REQUEST in /var/www/trenchcity/core/security.php on line 108
+[07-Dec-2025 18:31:10 Europe/London] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/trenchcity/core/security.php on line 108
+[07-Dec-2025 19:09:14 Europe/London] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/trenchcity/public/routetest.php on line 12
+[07-Dec-2025 19:09:14 Europe/London] PHP Deprecated:  parse_url(): Passing null to parameter #1 ($url) of type string is deprecated in /var/www/trenchcity/public/routetest.php on line 12
+[07-Dec-2025 19:09:14 Europe/London] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/trenchcity/core/config.php:156) in /var/www/trenchcity/public/routetest.php on line 48
+[07-Dec-2025 22:23:01 Europe/London] [tc_log fallback] [info] ✅ DB connected successfully to 10.7.230.13:3306
+[07-Dec-2025 22:23:01 Europe/London] PHP Fatal error:  Uncaught Exception: Simulated crash for trace test in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 1
+[07-Dec-2025 22:23:01 Europe/London] [ERR-20251207-087E3C] 💀 Fatal: Uncaught Exception: Simulated crash for trace test in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code:1
+[07-Dec-2025 22:23:01 Europe/London] [tc_log fallback] [fatal] [ERR-20251207-087E3C] 💀 Fatal: Uncaught Exception: Simulated crash for trace test in Command line code:1
+Stack trace:
+#0 {main}
+  thrown in Command line code:1
+[07-Dec-2025 22:54:52 Europe/London] [tc_log fallback] [info] ✅ DB connected successfully to 10.7.230.13:3306
+[07-Dec-2025 22:55:00 Europe/London] [tc_log fallback] [info] ✅ DB connected successfully to 10.7.230.13:3306
+[07-Dec-2025 23:11:40 Europe/London] [tc_log fallback] [info] ✅ DB connected successfully to 10.7.230.13:3306
+[08-Dec-2025 03:03:13 Europe/London] PHP Fatal error:  Cannot redeclare load_env() (previously declared in /var/www/trenchcity/core/env.php:20) in /var/www/trenchcity/core/env.php on line 20
+[08-Dec-2025 03:03:13 Europe/London] [ERR-20251208-F34B93] 💀 Fatal: Cannot redeclare load_env() (previously declared in /var/www/trenchcity/core/env.php:20) in /var/www/trenchcity/core/env.php:20

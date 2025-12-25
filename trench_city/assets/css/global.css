@@ -1,0 +1,25 @@
+/**
+ * ===============================================================
+ * TRENCH CITY - GLOBAL STYLES
+ * ===============================================================
+ * Main stylesheet that imports all CSS modules in correct order
+ *
+ * Import Order:
+ * 1. Tokens (CSS variables)
+ * 2. Themes (dark/light mode)
+ * 3. Layout (page structure, grid, sidebar)
+ * 4. Components (buttons, cards, forms, etc.)
+ * ===============================================================
+ */
+
+/* CSS Variables and Design Tokens */
+@import url('./tc-tokens.css');
+
+/* Theme System (Dark/Light mode) */
+@import url('./tc-themes.css');
+
+/* Layout Structure (Grid, Sidebar, Header) */
+@import url('./tc-layout.css');
+
+/* UI Components (Buttons, Cards, Forms, Alerts, etc.) */
+@import url('./tc-components.css');

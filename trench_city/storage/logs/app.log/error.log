@@ -1,0 +1,4 @@
+[AUTH][REGISTER] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6' for key 'PRIMARY'
+#0 /var/www/trench_city/core/db.php(145): PDOStatement->execute()
+#1 /var/www/trench_city/public/register.php(84): TCDB->execute()
+#2 {main}

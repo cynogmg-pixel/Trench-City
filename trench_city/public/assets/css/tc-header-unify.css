@@ -1,0 +1,73 @@
+/* =========================================================
+   Trench City — Header Unification Layer
+   Goal: All headers same height, same padding, same logo size,
+   consistent action spacing — without touching existing CSS files.
+   Loaded AFTER global.css and prelogin-header.css.
+   ========================================================= */
+
+:root {
+  --tc-header-height: 88px;
+  --tc-header-pad-y: 12px;
+  --tc-header-pad-x: clamp(16px, 2vw, 28px);
+
+  --tc-header-actions-gap: 0.5rem;
+
+  --tc-header-logo-width: 160px;
+  --tc-header-logo-max-height: 56px;
+
+  --tc-header-action-min-height: 40px;
+}
+
+/* Apply to both <header> and <nav> variants */
+.tc-app-header,
+nav.tc-app-header,
+.tc-prelogin-header,
+nav.tc-prelogin-header {
+  min-height: var(--tc-header-height);
+  padding: var(--tc-header-pad-y) var(--tc-header-pad-x) !important;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+/* Ensure consistent logo sizing everywhere */
+.tc-app-header .tc-brand-logo,
+.tc-prelogin-header .tc-brand-logo,
+.tc-brand-logo {
+  width: var(--tc-header-logo-width) !important;
+  max-height: var(--tc-header-logo-max-height) !important;
+  height: auto !important;
+  object-fit: contain;
+}
+
+/* Ensure action clusters align and match spacing across modes */
+.tc-app-header .tc-header-actions,
+.tc-prelogin-header .tc-header-actions,
+.tc-header-actions {
+  gap: var(--tc-header-actions-gap) !important;
+  align-items: center;
+}
+
+/* Unify minimum click target height for header actions */
+.tc-header-actions .tc-btn,
+.tc-app-header .tc-header-action,
+.tc-prelogin-header .tc-btn {
+  min-height: var(--tc-header-action-min-height);
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Keep postlogin HUD from looking vertically off-center */
+.tc-app-header .tc-header-meta,
+.tc-app-header .tc-brand-group,
+.tc-app-header .tc-header-stats-container {
+  align-items: center;
+}
+
+/* Responsive: slightly reduce logo size on small screens */
+@media (max-width: 640px) {
+  :root {
+    --tc-header-height: 80px;
+    --tc-header-logo-width: 140px;
+    --tc-header-logo-max-height: 52px;
+  }
+}

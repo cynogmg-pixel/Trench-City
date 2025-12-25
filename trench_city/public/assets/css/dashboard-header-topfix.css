@@ -1,0 +1,7 @@
+/* Dashboard-only: eliminate any top gap above the header */
+body.tc-page-dashboard .tc-app-shell {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  display: flow-root;
+  min-height: 0;
+}

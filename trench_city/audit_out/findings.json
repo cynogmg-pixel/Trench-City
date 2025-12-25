@@ -1,0 +1,2510 @@
+﻿[
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "NUL",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\bars.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\flash.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\init.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\layout.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\logger.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\rate_limit.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "core\\xp.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "includes\\footer.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "includes\\header.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "includes\\sidebar.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\achievements\\achievements_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\admin\\admin_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\blackmarket\\blackmarket_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\bounties\\bounties_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\casino\\casino_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\chat\\chat_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\combat\\attack_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\companies\\companies_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\countries\\dashboard\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\countries\\economy\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\countries\\laws\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\countries\\recruitment\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\countries\\wars\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\education\\education_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\events\\events_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\factions\\factions_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\forum\\forum_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\friends\\friends_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\gangs\\gangs2_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\hospital\\hospital_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\housing\\interiors\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\housing\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\items\\inventory_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\items\\item_detail_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\jail\\jail_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\jobs\\jobs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\leaderboards\\leaderboards_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\meta\\meta_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\missions\\missions_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\newspaper\\newspaper_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\npcs\\npcs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\ocs\\ocs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\pets\\pets_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\properties\\properties_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\rewards\\rewards_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\settings\\settings_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\social\\social_feed_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\stock_market\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\support\\support_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\territory\\territory_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\training\\training_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\travel\\travel_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\vehicles\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\vehicles\\garage\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\vehicles\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\vehicles\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\workshop\\blueprints\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\workshop\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "modules\\workshop\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\auth_login_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\auth_register_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\error_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\home_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\achievements\\achievements_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\admin\\admin_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\bank\\bank_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\blackmarket\\blackmarket_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\bounties\\bounties_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\casino\\casino_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\chat\\chat_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\combat\\attack_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\companies\\companies_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\countries\\dashboard\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\countries\\economy\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\countries\\laws\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\countries\\recruitment\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\countries\\wars\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\crimes\\crimes_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\education\\education_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\events\\events_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\factions\\factions_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\forum\\forum_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\friends\\friends_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\gangs2\\gangs2_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\gym\\gym_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\hospital\\hospital_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\housing\\interiors\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\housing\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\items\\inventory_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\items\\item_detail_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\jail\\jail_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\jobs\\jobs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\leaderboards\\leaderboards_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\mail\\mail_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\market\\market_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\meta\\meta_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\missions\\missions_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\newspaper\\newspaper_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\npcs\\npcs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\ocs\\ocs_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\pets\\pets_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\player\\dashboard_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\properties\\properties_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\rewards\\rewards_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\settings\\settings_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\social\\social_feed_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\stock_market\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\support\\support_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\territory\\territory_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\training\\training_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\travel\\travel_shell.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\vehicles\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\vehicles\\garage\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\vehicles\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\vehicles\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\workshop\\blueprints\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\workshop\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "public\\modules\\workshop\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\AchievementService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\AdminService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\AuthService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\BankService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\BlackMarketService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\BountyService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\CasinoService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\ChatService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\CombatService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\CompanyService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\CrimeService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\EducationService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\EventService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\FactionService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\ForumService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\FriendsService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\GangService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\HospitalService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\ItemService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\JailService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\JobService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\LeaderboardService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\LogService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MailService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MarketService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MeritService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MessengerService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MetaService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\MissionService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\NewspaperService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\NotificationService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\PetService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\PlayerService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\PropertyService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\RewardService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\SettingsService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\SocialService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\StaffService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\SupportService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\TerritoryService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\TrainingService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\TravelService.php",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\countries\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\housing\\interiors\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\housing\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\stock_market\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\vehicles\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\vehicles\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\vehicles\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\vehicles\\upgrades\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\workshop\\blueprints\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\workshop\\crafting\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "services\\workshop\\parts\\placeholder.txt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\logs\\test.log",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_,f1g--DcAZGm,VPcdHRKOLSAaIodYyBFj9qsKeCeRmEcYRRs",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_,jqkLGqjscF6-d2Y9Jjgry58d2W4y8UFgJWyLGbne-wNRyxp",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_,MaiiCgbf8qPO30oVz0BRNxClxvN6-AGGGdYvss84LYghOf4",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_-INATWV9FU1KEA2uj8LgHpDqiIF9p1P-5mIr3XI23E-E7ZvJ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_0sEG6W3,3nUtXY9wO0tNFxSAPtFLj4JEvi-pQG7fhIV5ESlQ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_13TBFEGStBQ8uD6mvq1LXxfIxnjJ4R4kVgMq5ta2AutUJbVa",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_2,9piePMyCC7htWpP9Ok6byvaTYesP6U6y-DKV2YFVWsVTk8",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_22q6Ql4FwtkYfI87qeiyQQTjW369emQpAHj7hajV,RBu276t",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_2qVal-LjKbi2LUTFkXeEZ1GpsesDFRNbO7en-wv,7QwXerXm",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_2uKLXWpXtVontsQiXqWFmhtntr3v0Dce3dx,uHjqQFrMZbaA",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_3jkNIIJk,kQsiP,eNxuogzyyE2kbDQIWWOnbeAhLc-ZhzZ,O",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_3jxgO-TRuWQtSC14pbRM7GooqxuN8,qLJGQQ-lGlWOp0Dk6c",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_3rQlq2-N7mYzjq5Y7b3gHXYVaOw-CXbeOU5G6jpJt4WazC0V",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_3sTNtAwJ4oEXUSZEJI4j,M2IA04hnTVDoBBE8SgRxNZdzr7A",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_43kFcL2GKbHC3TNKxF,aRRHTW6PUAMP7tCM4T9,odJP2f0Lp",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_46q4jahd7QwEYYCrTyjkq0Ov5usabee9r7GcrPgjylcd2Qk-",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_4OoACGYOQ-fogr9rxzKztlzEF4lci-f4SyywpunZukAkfz,G",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_4ZZ35GothytGtcOtjztvSoFUp9tCG1q1k8IuErSHw6NlF-Br",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_5d,ObfUy6YKjHFghsRRhIdKduD6wZjBA-8fFK0rf9JbqVCnt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_7m5BgxMjFmLOyLSPtZ0ArSRYeYPR,u6YQR2IFpngN2abk0y0",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_7njSf,eCtZwxTlo4mwjW-3zBBtGMSXKtSB1NcRoQ4129QzaM",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_8bd02cn7fIV89PxAgB,gBNnoKjWU-9S8dW6VSx1qtO5gMv3G",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_8HFh7RMATDSqMGaHQ14V5ouIupFKxMX5PDYrONqMZvNZjbgw",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_8oqsnNt3goll,vtf0xpo5dEONLf4d,LLK0cf49NvoHe0C,7J",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_8oUWWwLALAJwbcK-regiGPv,M7PzrUEN62uec9wNBoSpmci9",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_8r5mnQcVXck,qaZ-apBL6B9DZQMWTPT,w6B,TNfCJ6gNNTT4",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_a,GXJxAK0U6h07SCctb,NuB-gT,WE72nFwH60tR71TikMpvO",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_a3YuJPQ6K3l8Q4-E4k8hdQYSa6rTBxhHtdDt1BqL6a7H1DmQ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Aay1Pj-j,1CPOXN2ekKq1ZYKL3P3qf01ONvSEDxwjZ4HOa9s",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_abcvihqMPubiifZ9j19IvHb3J8fxEUgYnax,d9enamWvbYkj",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_AbQKj5hTKp0rfTKs,xByqmrJJMFcpnkeaeu8PRZLA2u5ZoXr",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Ai7xnRpKSn7kaP-eROBAOD3NeUORm7hCAIYfujyC7Fl01ZXf",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_aKPArnQuUjNChzOc9BWNTyngrJlLBV6EEUyPiQ6ju2P4INMs",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Auf7v0VpjJG9QFNPEnVozn12Ul7XSODu8TRzdrpds0xgyE6c",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_AVrZeMnDZBmuWpGOguvwN6e,NyDITDFauc7ehiXEleHCMZoT",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_b5ZpHPolceK4UPLwjJ--S6XW,rx,vtd1G8Od0dMVXYdVNUum",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_bMsh3lR95DKoymDv4Ke0uHIICAYfuxTkzgTOR5ls3U2Na60y",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_ByliW5e-R,lIidTlrI9GvnLODFk9ihNK5upH-s3qnk1yE8zu",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_c1ijbfy4FAYwYR,nQVP0JYPqZj0P,T,kJVFUVzdBjv6PaGIO",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_CD7Kv7eESvifhq0fjcYYC4EaTNmLGWKR6chc5jDtzypg4615",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_CO1nG9jBPJZWWX4EvtU8hqHUXdvmL,DxfXIxw-e3-S1hwDjt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_cPcqc5uoa2E6j660GUS7PsWpK3CMjdDPnWWFc69fTywA8hZm",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_cpoL0aHrnovwZcIsCDyoP28lFN03NxlKo13oksXmfCgtN4,l",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_csqluUKhnDJ6rqoaS8fu,-bp6swgHgL,cq-IZh6v6La70Ey-",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_cvTM,D29CvYIWmITOfRiZBPwJpNUEP3ajWzCxl2bUhiq,UKm",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_DGT9ry00cm617BS81M-82odXRNqGRwty,WeslBI4Z7IkzZFV",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_dvK7jXiS0MMxnjbXS4FrdDfQZyVxKTPx3UNbn5r3l2xxIx9F",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_EeONjRMYTYNxyj7MI8CKNGcgfnN9FqWJ0ElJbk0VU33Ln7fo",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_eGlf9LLIqkMgJkBZVPtjl19jn6dtRoCoJIwHZT2ca6EEmM0d",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_EI5LsdCKq1hFwM1mdY7Lbt4OrJcj35EgeH2kTd23nCS50UJT",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_EjM,-mW4EzKW-lXdPKMu85YoRD4ljpAsT5BYXNqFAEdEBTFB",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_EKVOumD4Bdq4ZLA0fgcXZ0eJ0JWvEzo9qIsSBX07hArvTng6",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_eV,ta1EPgYmmpDPG68iX2spuTznjFJ,,C7VHUIWPCWikAntR",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_F6-fw9HYRMtyTdeLmKnJeWJLnNqnfsfBaRNBrn4OmyTHPdiD",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_fD0bFS7NPqC9de0LT-7w2ag-IkAAhqwnkzY3gra9RoYWMU0p",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_FdKPV9LnHzstrWzTSwWc,CN,hRa7jRj5RuTmibx3aS0Pc-Dg",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_figV4dXQy8EyXQ3bU3VXvRUdVX3Lx4BUM19WPEFtgran2JO7",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_FlR3H-EV3f1ZqGPLeBBCgLiTUZolDZBOac3tj3WberBPeLiT",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_fLZy1OjpVcZNaDeXdt5dssUQNaqK2breHx5ei0VzsjGVpMHB",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_FVmhf4cmyrskB6W6fyC6bmQ,NwmShNsoSK2-SnCtPoqekfHJ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_fzy2beFlZO0JtJdMO6sg3zla-4ipo7i3ApVpd-gFUc8l-Kjq",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_G-Pc1Vs-tuSC8rsJHLrfwCHYtovMAEH3lS0q5dLMxVxyNXD8",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_gJEF1aIb-lTJV-waOt-oe1,hfviyZz,QLoTRZkC69xzN,ROg",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_GodfMVmvl-IFdWw-KwpDvl9OsGP3iBro3401BtSq5QHHPf4O",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_gRxCHok-MGrSoF3UOKfOybjWlYjc7BM2I819dGnj,eXjKdsC",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_gsSMhB5HIFngppv9ICGF1BpMh,1ZIB-bYULGI,TPbELoonf1",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_gY7kfiIPXdiIxBDIZpA9tkWIeluBjHxHr0dvgMO46wyHP5Rh",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_hdaxPUj8BsUFXSLeQHUegVrU4Yjs7ja3DB07xW966pXjGsB1",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_hJC97tbMIIwKwOW7ipXlStB67H2HJ3weehc59nPma0Ua55Ka",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_hnco4DHZ3lpWdmqV2uWxxBFotAB0X3MU9GTlyDZGRxUiLHnJ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_HOwGtzxnogZrws6P0hPP5GSCBc6ph9Vl,e5cAwfmYClV1DBx",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Hs8WWOa82kDAKSQY83nntmI,McDbG59cOWobD6mD7sJgyBNy",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_hWCce-Nm22H8d30hrhWHXImhFscM9yBGtLRdsswawbThpy3V",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_hyfhPQCUOjSdUBt1Bl5ZGypHP1vqLj4qNqFmkBdxM-SLXaOO",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_IAHlYC,HpBgBXjNCdFGuRiThzJS-Hc9jbfErESN4ngW5fXQy",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_iNsNqRC7DIML1hF5kEWG0o8i-NEIC27YwhrCfr9c5Aj2Zdup",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_IPE-FlB1gr-RG-8hhjEoKS1x0qpukX7huB,aF44vfhFrMnCM",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_it5UNCEBfynhsMZ0bDG4szMtpqiOo8jYMh,qNPKyUuJ2SwmA",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_IV9hITf35hTwvS808BOHvSPE4WYViAvqkGiW-dOTjwem9XVg",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_IvFS9C75u6SK5iN3LOyRZ4luHV6QEzTMB8yhcPCuBMJ,0ITU",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_j,Z--VZCcQUqRVOAyD,MH7TO4QzcF,DFonwryScShncegd93",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_J0isAl5xFBGzqWVQTIqTrHVGa8Zyq6VEOhmeG2INocf,yuZE",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jaNnSW4nr3WkgH3DrjXgV6xp2sCTZ5wYwaf7KreS4,8pjLV8",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jBzKyF3eWaeOorpTO,6YpkXtjLvtpP6mDAsXUVLrvbTWnLGW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jG7uY0AGCxq15XtHWVE3dF9EDOl06XuVL3TugejlHGE-NYDx",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jGnSlby9yQSNX-oOwZD1QHYkLdIqPpy78OLPzYXlkoFsrfyM",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Jmn66rh0mxCxKmn9S1m,2ygB7WYtsICKtY36PHCDgr9IqD07",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jqEdIFyGHq7F91j9mR9Gs71VebwxNhhib0a3mY7psVWH09CX",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_JRfXR7PRunanmgXEV28Gpw8lxC,sCo6dmof5pm6K-TdWgqKW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_jwpSX8YSgjyzd6PbGgRbQSjBIBp3xNUfJm9nPdxMg07lciK3",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_JWrPw0sVwu21pMRVgaWdQ1QoNx3kxdTfTHYMUKCWfYWlPgOp",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_K8QnhS9OvGh2QyFBlZbInTPqqy78v4VJO8788uyNI60ExpfV",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_KGRAFzTZkEaMVu-C,VgMF5HRrluR60CTr,bQcg5yv8MT8ul,",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_kJXJO9CpSyYWD5EzaK-sZcbsrxM-fmTbjHavMbYXQBNytFku",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_kLOEezH03KJmyej2kRbo-R6cJssp8FkvxYJlEfhvhrbWjd49",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_KrbEtSFAT8BxMtcklOCfu9bkLRL9Ut8DGtOsuZtZ4IaKe0,D",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_kyvi4wDenW-7ryTPPQ9BaZncotXHElOG-3nFBCtLwwvolpqt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_KZVy9Rmtf8MlvqMoCo1w8XOgDJEDWJC6g7o7o8JWXhEYROJv",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_lLIyNJHgmZTXDqzb0nZD5CZpCy4qXw3jGNs4IeRO7W5p4Nif",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_LOhm33EfK3N1qPX,DQlYSZ6E3wmaTKYvgeBRg3FjzutzLwA2",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_luKUUyNJ3EW4cH0dzn9PTpV3t3CRrwFijIH4Bdsw2pbb3HIV",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_lW3PVouYyPkDreGHiOlQx4Gx8KZ8Ma69xo1KSmsR,OYY0bRn",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_LWrIDUTqnf5Rw1TwJgGu,0veixc5H6zderkDlfi7XkiBtn3q",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_M7l2owUad2Fk0Z5UIUxhMm4mWmruviKW72Bstdz4nwe5lGrF",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_M8GZJhOQ3owKttBcR-t06h8Qf2VD16MPppVaR2JmnWLVEtun",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Mg12j6bGZLGLUJ7Euibk1OEpFXWz,QVasEGEB,6ezorJpz,g",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_mgnaLX6l-ERJA48vPBYiQleyIyb6gEWu2PU,xLXJ4BZEq5dv",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_MIISCe1viYWNZ5Wy0jfPHOLQ0c6p0hN9WQkJhDxXfEvtSSXI",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_mNmfL,PoXyhPxEQXFnwcZsNFXhbBNFODqO1rG185yCOJPsPs",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_MqG-3fxg7Ki,xIZr6KgkaF6R6dZoORm0Y1ddup68yHjBVIWL",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_mWIotZ6gmKixpSqaJ2FYHfSt8V6vOBWbeEH1ZPmd5IYaEFaq",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_MZxFoyN2H0-ppXGBeRG1GbjK8nrOINBBgosyQps0BYgE82-P",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_N50nySL7pTW32g36puRuf-xyRptPRTBRy5Ssdw90vSyh6vNW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_n7viuit,6UVkx-xLYlboVlg,1c,N3S6Zit8gK9z5e2KRJnGl",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NdbkndkgVryBPvrfdpaK8TE,sz2l10J,TKeD-CDcF5ktaKZk",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NfSD9eFtQtnImqElyzljk8tvKMA5Xls-Jy7PwiLu29wLPjm9",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NH5e2uuPIJfhNrDcJ-W-92HrJDVXKWA7oa9LN2juSFldHVd9",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NIzdyIvCbL4dPEKdJ10WPaiKE5iRavA,rxMirHHR6ieTJ4x,",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NRaIryS0BAVp1-BTPcumZoHq,EBVrSqg,lBfiyfA5RV,f2DD",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_NsUSH2uF0JbPG5pWxIc3Z-EWqG525it9VbTMBigotQGtDg3N",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_nVaEXXPk6O0FuPzW,ql2CzTGc-XFSBtyig8WxGXzlqKF4WeK",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_OC8rMyas,gBhp4F9Kx-v2PuJL-zyCpaXQSIIArCwiYTkJlAU",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_oCxWzJDsmhsh47KLgLjPdLezSOcdoR0gfyV3lA22lYX1PYt,",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_OD9KuVCs63vqy-Ba4Y4Ti97kOPC7rL-mVk3b5sI9hwhIj0ZN",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_OZuZN9nWb7l,6fqEuehPcshJpCgCh6bCjHD2vkrwAxCJQWcp",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_PgL8Pr-TUNHld8MUh4RpOqNpWxM2H5WroyaiKDovStZdh5gt",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_pZiFzpu3uqUbOPOpARWAWL9p3JczTZLUYL3h-cssIHQUuQ8O",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Qasfw2tnw,r-fD3iHvkt7,rMjSWZxT0Q-uJOMd-q84Cw1wc9",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_QXgGQsOWZq9kSxFCc7NuiM4biDQEtng-b3qt8-b11gb7opzv",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_raEp0bPRFxKlDmqwLa8RExlQfXUL,YAUHoIX7UwiKJwcjAHk",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_REYfz2wflWd,g4o9LrP-eKnUjjBzvhy9Ff,jlNsYgDUn7VJC",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_rjOSnsPfBpeSj91ZKEJaZKMKG4zOyohyRUBOgBAjSL1a,OGW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_rONkcN4X-bID,BRt8OoqnLJNucFOc-Nlvidfh60f0Y,73nai",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_RRaRxQ2h4kDtWblzXeKlBOag66ekLO3M5EeQENe81JOUIXhd",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_RTAV9VuoXyfKDR21IsqFvgKAWsK1Y8tYEwng7GvBcusxiWjM",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_RWBbfgDfiSjrYRiWzfpEKXu18qeyrkKBJHo2OUexY,sktvAO",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_s6ycbpf3C9nnGVd4Ejvup,zWoHKXf1tKcnWatPlj5xWV,que",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_sJWeAhp28YvSJFikxJHKhOIOj41sRkPGR6ruUJNLOs03tK85",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_SMi5i4x19W8hWxQ21-is5YleMo8KWJxfT1HR7dBPPTE3svr4",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_TaFHkWsxp3RRbSDy,tKwIhdt6EFyc4rc-X,Pfops5efaXqAy",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_TFvMNBDR4RVBC51PWcRTk5rrlf8uIZtG443u2xYRgNitwsZ0",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_to6F,ktYP9RV,eB6tn0eMKGELjKbXfbUaYD7Gx7QMsulWsPU",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_TWXzwoyOEJnvYGZyFVRbnNpIb8ySVPveLXWpJ8ypxXE1qX9S",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_uJa-57r78hEdZ8kwINbKgb5rtQf,j0NMla,,PfIxqxl-lu1A",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_V0puxssW7KvmzTc3XgUnxtXqss1,gCx66Kj-t4-IIwB3brZ8",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_V4O8Ct,jc238JxwNxEnveA-VB,ru,U7f4Oe7iA9EFNTOMsGF",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_vDH2VHNYRrmhpUul-FZeZZyG0rliloJ1ao4N19tn92b2MbDN",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_vfksYHmpaOOy86xSBkJ3Kh7ObxnoyOcuxunBD6F2nb0SPqsZ",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_wHTpFGg4Gy7,D40S2AyngkvP9FXYHFBuzldP27TzGDwMecZe",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WkRhPRPGWtSsIbj3NX3k56iXnZ2zboaoE2t6p8KhWu3TEamY",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WkUXyvjIpznY2kK,8-vEOFwGdnjn,fz6Ff3DPHKoJkvgQkEW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WmH31Uzw7BPY5GmGO1PgKTyUVDbjfEbr0,5upAHKa,6c-Z5T",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WoCYzsU-riOqw6fWSp408NIv43iOBms21F11K2Wlfl,C1WU9",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WpNu2TThDXXtUj,GWiwe62bVB4dDMVb-m,Fu-Z2hoZ93s3bR",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_WyoPhseBsbAwkm5o1cCE8hpY1vRg1xwvIfqVRGUufYQ8dAj0",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Wyqenhm6nPyaQIbo6D7NzD,B-iSXf8FuMDXhb4uLMP92alFL",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_x046w3m5ZLSlBvQGry566KxHvygTZw,sUWRV5bhPthlMtae6",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_XA8938L4W--Q9qYkY37g,Cm3Kl638SAsnPXlIclZkkz6oC5Z",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Xmf5c7G97-sQiT6SgJaOxswu7maOgQzVnYwuUg43ptdJrWpM",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Xo4CBVRXGFw2v-jprkuGjC1Z2Xw1sLV61csFQHnfdRMKAfcI",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_xOs5DbVsNiOTjf6kaRqYA39UAJEPoF5ldAat9HCJsNK9Vf4l",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_XPv6kFeT8xuq0xhONI9eFlWjsa5cE,lhnHsIpZBOPJ0,K9ev",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_xZDQjbPgr,bCW5T3qJeaOMabE2WlbS6LLflaJ1ZGezrUlfVf",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_YuZwYx1MvaPRlW-D,q0xIEmVmuezifkZA2eqHugQqQc1BXeF",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Z8ef26LDLvT237mOJKxO9AlyEOX1ccAlFQZ3ce2t3HHn01lW",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Z9fYwMlnodhlpLRNet0NVEPje-LCWsRomgiQwPIDZ3bgoN8o",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_ZbXBowve1BpEZFUx7Lvrx3kkpDA9FC9AAAe,FuCFnBG1f6HP",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_zbYoWUk0rWT18WfCY,gw20Hl1ZmwRMSgsFFgAIoYWCZCZHP5",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_zcQ9fn3zdfGCBl4o8SR9A84eYT9f-jwVCkwNXeIIMdjJhslj",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_ZDkTJXsLd2i0Iwr,iUC5bmREIf1b0UakYOLFfT6OmBi,yizx",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_zDqoKUu25KXa4ClsO2d1qN3SWp1siC5lCLlT,69XseuqvQl-",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_Zsus95mvFPbFAH21H4zcBGjGXEfYA-rMbJaUg3waZED2vYNl",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Empty file",
+        "path":  "storage\\sessions\\sess_zxy0hTPz,X4ZY9n7DHSS7BjG60aseIrSJS5KWipITgcvVJt3",
+        "detail":  "0-byte"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\index.php",
+        "detail":  "/var/www/trench_city/core/bootstrap.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\index.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-header.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\index.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-footer.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\login.php",
+        "detail":  "/var/www/trench_city/core/bootstrap.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\login.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-header.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\login.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-footer.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\logout.php",
+        "detail":  "/var/www/trench_city/core/bootstrap.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\redistest.php",
+        "detail":  "/var/www/trenchcity/core/bootstrap.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\register.php",
+        "detail":  "/var/www/trench_city/core/bootstrap.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\register.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-header.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "public\\register.php",
+        "detail":  "/var/www/trench_city/includes/prelogin-footer.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Missing include target",
+        "path":  "vendor\\phpmailer\\phpmailer\\get_oauth_token.php",
+        "detail":  "vendor/autoload.php"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\autoloadtest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\bank.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\combat.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\core_status.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\dbtest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\envtest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\extendedtest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\gym.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\health.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\helptest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\home_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\logout.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\mail.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\redistest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\routetest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\securitytest.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\achievements\\achievements_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\admin\\admin_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\bank\\bank_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\blackmarket\\blackmarket_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\bounties\\bounties_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\casino\\casino_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\chat\\chat_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\combat\\attack_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\companies\\companies_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\crimes\\crimes_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\education\\education_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\events\\events_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\factions\\factions_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\forum\\forum_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\friends\\friends_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\gangs2\\gangs2_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\gym\\gym_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\hospital\\hospital_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\items\\inventory_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\items\\item_detail_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\jail\\jail_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\jobs\\jobs_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\leaderboards\\leaderboards_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\mail\\mail_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\market\\market_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\meta\\meta_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\missions\\missions_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\newspaper\\newspaper_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\npcs\\npcs_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\ocs\\ocs_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\pets\\pets_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\player\\dashboard_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\properties\\properties_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\rewards\\rewards_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\settings\\settings_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\social\\social_feed_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\support\\support_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\territory\\territory_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\training\\training_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "high",
+        "issue":  "Unguarded public entry",
+        "path":  "public\\modules\\travel\\travel_shell.php",
+        "detail":  "requireLogin() not detected"
+    },
+    {
+        "severity":  "medium",
+        "issue":  "Dangerous patterns summary",
+        "path":  "audit_out/dangerous_patterns.txt",
+        "detail":  "PATTERN eval\\s*\\(\n.\\core\\audit.php:40:    \u0027/\\beval\\s*\\(/i\u0027          =\u003e \u0027Use of eval() ΓÇö security risk\u0027,\n\r\nPATTERN exec\\s*\\(\n.\\core\\audit.php:41:    \u0027/\\bshell_exec\\s*\\(/i\u0027    =\u003e \u0027Use of shell_exec() ΓÇö dangerous\u0027, .\\core\\audit.php:42:    \u0027/\\bexec\\s*\\(/i\u0027          =\u003e \u0027Use of exec() ΓÇö dangerous\u0027, .\\core\\audit.php:68:        $lint = shell_exec(\"php -l \" . escapeshellarg($path) . \" 2\u003e\u00261\"); .\\core\\helpers_extended.php:46:        \u0027uptime\u0027    =\u003e @shell_exec(\u0027uptime -p\u0027) ?: \u0027unknown\u0027, .\\core\\trenchcity-maintain.php:26:exec(\u0027php \u0027 . escapeshellarg(__DIR__ . \u0027/selftest.php\u0027), $healthOutput, $exitCode); .\\core\\trenchcity-maintain.php:53:exec(\u0027chown -R www-data:www-data \u0027 . escapeshellarg($logDir)); .\\core\\trenchcity-maintain.php:54:exec(\u0027chmod -R 750 \u0027 . escapeshellarg($logDir));\n\r\nPATTERN shell_exec\\s*\\(\n.\\core\\helpers_extended.php:46:        \u0027uptime\u0027    =\u003e @shell_exec(\u0027uptime -p\u0027) ?: \u0027unknown\u0027, .\\core\\audit.php:41:    \u0027/\\bshell_exec\\s*\\(/i\u0027    =\u003e \u0027Use of shell_exec() ΓÇö dangerous\u0027, .\\core\\audit.php:68:        $lint = shell_exec(\"php -l \" . escapeshellarg($path) . \" 2\u003e\u00261\");\n\r\nPATTERN system\\s*\\(\n.\\BUILD_ROADMAP.md:433:- Rival system (mark enemy, get bonus for defeating) .\\core\\audit.php:43:    \u0027/\\bsystem\\s*\\(/i\u0027        =\u003e \u0027Use of system() ΓÇö dangerous\u0027, .\\docs\\technical\\EMAIL_RECAPTCHA_SETUP.md:12:- Verification token system (24-hour expiry) .\\README.md:65:- All using centralized core system (bootstrap.php, db.php, helpers.php) .\\docs\\guides\\ALPHA_RELEASE_README.md:21:   - XP and leveling system (Formula: Level = 0.25 * ΓêÜXP) .\\docs\\guides\\GYM_SYSTEM_COMPLETE.md:38:- [x] Energy-based training system (5-20 energy per session) .\\docs\\guides\\GYM_SYSTEM_COMPLETE.md:41:- [x] XP reward system (10-18 XP per training) .\\docs\\guides\\GYM_SYSTEM_COMPLETE.md:489:- [x] Multi-gym system (4 tiers) .\\docs\\guides\\GYM_SYSTEM_COMPLETE.md:514:- Γ£à Energy-based system (5-20 energy) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:44:| `assets/css/tc-layout.css` | 15KB | Layout system (sidebar, header, grid, responsive) | .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:118:- Energy-based system (5-20 energy per session) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:126:- Unlock system (pay to access premium gyms) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:150:- Nerve-based system (1-15 nerve per crime) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:155:- Jail system (30-60 min lockout on some failures) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:156:- Hospital system (15-30 min lockout on some failures) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:356:| Gym | `/gym.php` | Training system (requires login) | .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:357:| Crimes | `/crimes.php` | Crimes system (requires login) | .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:645:- Gym training system (4 tiers) .\\docs\\guides\\IMPLEMENTATION_COMPLETE.md:646:- Crimes system (5 categories, 20 crimes) .\\docs\\deployment\\UPLOAD_SUMMARY.md:200:- Γ£à Centralized core system (bootstrap, db, errors) .\\docs\\deployment\\UPLOAD_SUMMARY.md:203:- Γ£à Login system (both versions) .\\docs\\deployment\\PRODUCTION_CONFIG_QUESTIONNAIRE.md:475:- [ ] CI/CD system (GitHub Actions, GitLab CI, etc.) .\\docs\\deployment\\FILEZILLA_QUICK_UPLOAD_GUIDE.md:232:Γö£ΓöÇΓöÇ core/                             ΓåÉ Core system (UPDATED) .\\docs\\development\\TrenchCity Knowledge 3.md:492:/gym ΓÇö Gym system (training, gyms list, UI). .\\docs\\development\\TrenchCity Knowledge 3.md:494:/crimes ΓÇö Crimes system (actions, logs, UI). .\\docs\\development\\TrenchCity Knowledge 3.md:496:/factions ΓÇö Faction system (management, wars, chains, etc.). .\\docs\\development\\TrenchCity Knowledge 3.md:747:Store XP/level mappings inside JSON blobs or module-specific tables unless explicitly part of a system (e.g. local skill XP). If you do, it must be clearly distinct from global player XP/Level. .\\docs\\development\\TrenchCity Knowledge 3.md:1026:When you create a new UI pattern (e.g., a specific card structure for logs), consider abstracting it into a small partial or documented fragment in /includes or a template system (if present). .\\docs\\deployment\\DATABASE_SETUP.md:120:3. Test each game system (crimes, gym, combat, bank, mail) .\\docs\\deployment\\BACKEND_IMPLEMENTATION_SUMMARY.md:11:- Bank system (deposit, withdraw, transfer) .\\docs\\deployment\\BACKEND_IMPLEMENTATION_SUMMARY.md:46:   - Cooldown system (1 hour between work sessions) .\\docs\\development\\TrenchCity Knowledge 2.md:469:- Guard against ΓÇ£zero-penaltyΓÇ¥ mixed builds by making sure every strong benefit has a matching drawback in another system (e.g. stealth vs protection). .\\docs\\development\\TrenchCity Knowledge 2.md:8064:- Guard against ΓÇ£zero-penaltyΓÇ¥ mixed builds by making sure every strong benefit has a matching drawback in another system (e.g. stealth vs protection). .\\modules\\crimes\\crimes_shell.php:8: * - Nerve-based system (1-15 nerve per crime)\n\r\nPATTERN popen\\s*\\(\n.\\vendor\\phpmailer\\phpmailer\\src\\PHPMailer.php:1769:                $mail = @popen($sendmail, \u0027w\u0027); .\\vendor\\phpmailer\\phpmailer\\src\\PHPMailer.php:1795:            $mail = @popen($sendmail, \u0027w\u0027); .\\core\\audit.php:44:    \u0027/\\bpopen\\s*\\(/i\u0027         =\u003e \u0027Use of popen() ΓÇö dangerous\u0027,\n\r\nPATTERN unserialize\\s*\\(\n.\\core\\helpers_extended.php:28:    return $data ? unserialize($data) : null;"
+    }
+]

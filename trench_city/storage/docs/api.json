@@ -1,0 +1,482 @@
+{
+    "audit.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY CODE AUDITOR (v1.1 POLISHED) *  Secure static code scanner for Trench City Core. *  Detects syntax errors, dangerous patterns, and *  duplicate functions with whitelist & log support. * ====================================================== *  Author: Architect *  Updated: 2025-12-08"
+        }
+    ],
+    "autoload.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY AUTOLOADER *  Dynamically includes class files * ======================================================"
+        }
+    ],
+    "bootstrap.php": [
+        {
+            "summary": "====================================================== *  \ud83c\udfd9\ufe0f  TRENCH CITY BOOTSTRAP CORE (v2.4 \u2014 FINAL FIXED) * ====================================================== *  Universal Core Loader \u2014 Modular, Secure & Autonomous *  Features: *   \u2705 Ordered core dependency loading *   \u2705 Verified module discovery (/core/modules) *   \u2705 Centralized logging, error handling, telemetry *   \u2705 Safe dual context (CLI + Web) *   \u2705 Self-healing + CorePanel integration ready * ====================================================== *  Author: Architect *  Status: Production-Stable | Hardened | Self-Healing * ======================================================"
+        }
+    ],
+    "config.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY CONFIGURATION CORE (FINAL) *  Environment-Aware Application Configuration *  Loads from .env \u2192 Defaults \u2192 Constants *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Ensure environment is loaded first"
+        },
+        {
+            "summary": "Safe constant define helper"
+        },
+        {
+            "summary": "====================================================== *  APP CONFIGURATION * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  PATHS * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  DATABASE CONFIGURATION * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  REDIS CONFIGURATION * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  LOGGING CONFIGURATION * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  SECURITY SETTINGS * ======================================================"
+        },
+        {
+            "summary": "====================================================== *  FINALIZATION * ======================================================"
+        }
+    ],
+    "constants.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY CONSTANTS CORE (v1.3 FINAL) *  Safe global constants, environment-aware. *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "------------------------------------------ *  ENVIRONMENT CONTEXT (Loaded via env.php) * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  APP METADATA * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  PATH CONSTANTS * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  DATABASE CONFIGURATION * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  REDIS CONFIGURATION * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  SECURITY + TOKENS * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  SYSTEM / MISC SETTINGS * ------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------ *  DEBUG / STATUS (CLI Only) * ------------------------------------------"
+        }
+    ],
+    "db.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY DATABASE CORE (FINAL) *  Secure PDO Connector + Auto-Reconnect + Logging *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "------------------------------------------------------ *  Establish persistent PDO connection * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  Global DB Helper * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  Health Check * ------------------------------------------------------"
+        }
+    ],
+    "env.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY ENVIRONMENT LOADER *  Loads environment variables from .env file if present *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Load .env file and populate getenv()/$_ENV * * @param string|null $path Optional custom .env path * @return void"
+        },
+        {
+            "summary": "Retrieve environment variable with default * * @param string $key * @param mixed $default * @return mixed"
+        }
+    ],
+    "errors.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY ENTERPRISE ERROR HANDLER (v2) *  Full-stack observability: error IDs + trace logging *  Context-aware for CLI, API, and Web *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "------------------------------------------------------ * Detect output context (CLI / JSON / HTML) * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Generate a unique error reference ID * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Write a detailed trace to logs * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Smart output renderer * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Handle warnings and notices * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Handle uncaught exceptions * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ * Handle fatal shutdown errors * ------------------------------------------------------"
+        }
+    ],
+    "helpers.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY HELPERS CORE (v1.2 FINAL) *  Global utility library \u2014 consistent, secure, optimized. *  \u2705 Works in CLI + FPM + API contexts *  \u2705 No duplicate functions *  \u2705 Clean integration with Log + Redis + Security Core *  Author: Architect * ======================================================"
+        }
+    ],
+    "helpers_extended.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY EXTENDED HELPERS *  Cached data, runtime stats, lightweight tools *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "--------------------------- *  REDIS CACHING HELPERS * ---------------------------"
+        },
+        {
+            "summary": "--------------------------- *  SYSTEM / RUNTIME HELPERS * ---------------------------"
+        },
+        {
+            "summary": "--------------------------- *  TOKEN / SESSION HELPERS * ---------------------------"
+        }
+    ],
+    "log.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY LOG CORE (v1.2 \u2014 FINAL POLISHED) * ------------------------------------------------------ *  \u2705 Daily rotation (auto-trim older than N days) *  \u2705 Safe fallback to /tmp if logs unwritable *  \u2705 Redis telemetry stream for ERROR/FATAL *  \u2705 Self-healing permissions (www-data:0750) *  \u2705 Timestamped + unique error IDs *  \u2705 Lightweight atomic writes * ====================================================== *  Author: Architect"
+        },
+        {
+            "summary": "Rotate and delete old logs beyond retention threshold"
+        },
+        {
+            "summary": "Generates a short unique log ID for cross-referencing"
+        }
+    ],
+    "redis.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY REDIS CORE *  Secure Redis Connector with Auto-Reconnect *  Author: Architect *  Committed-by: Architect * ======================================================"
+        },
+        {
+            "summary": "Create and return a persistent Redis connection. * * @return Redis|null"
+        },
+        {
+            "summary": "Global helper for Redis * * @return Redis|null"
+        },
+        {
+            "summary": "Health check for diagnostics * * @return bool"
+        }
+    ],
+    "router.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY ROUTER CORE (FINAL) *  Minimalistic routing engine for APIs and pages *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Route storage"
+        },
+        {
+            "summary": "Register a route (method, path, handler)"
+        },
+        {
+            "summary": "Dispatch current request"
+        },
+        {
+            "summary": "Helper to send JSON responses easily"
+        },
+        {
+            "summary": "Helper to redirect"
+        },
+        {
+            "summary": "Middleware example wrapper"
+        }
+    ],
+    "security.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY SECURITY CORE *  CSRF, Request Signing, and Input Hardening *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Generate a CSRF token and store it in session"
+        },
+        {
+            "summary": "Validate a CSRF token against the session"
+        },
+        {
+            "summary": "Generate a secure nonce (time-sensitive)"
+        },
+        {
+            "summary": "Verify a nonce within a given TTL"
+        },
+        {
+            "summary": "Securely sign any payload using HMAC"
+        },
+        {
+            "summary": "Verify signed payload integrity"
+        },
+        {
+            "summary": "Harden all global input arrays"
+        }
+    ],
+    "selftest.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY SELF-TEST MODULE (v1.0) *  Automated Core Integrity Check *  Run manually or via cron to verify environment health * ======================================================"
+        }
+    ],
+    "trenchcity-maintain.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MAINTENANCE SCRIPT (v1.0) *  Automated daily housekeeping & health telemetry *  Runs via cron: /etc/cron.daily/trenchcity-maintain * ======================================================"
+        }
+    ],
+    "Auth.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: AUTH (v1.0 \u2014 Final) * ====================================================== *  Unified Authentication Engine *  Features: *   \u2705 Token-based & session-based auth *   \u2705 Redis session storage (auto-expiry) *   \u2705 SHA256 API key + BCRYPT password hashing *   \u2705 Role-aware (user/admin/system) *   \u2705 Safe CLI testing and CorePanel integration *   \u2705 JWT-compatible structure * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Session expiry (seconds)"
+        },
+        {
+            "summary": "Redis key prefix"
+        },
+        {
+            "summary": "Generate a secure session token"
+        },
+        {
+            "summary": "Validate and return session payload"
+        },
+        {
+            "summary": "Destroy session token"
+        },
+        {
+            "summary": "Store session in Redis or fallback file"
+        },
+        {
+            "summary": "Retrieve session (Redis or fallback)"
+        },
+        {
+            "summary": "Password hashing (bcrypt)"
+        },
+        {
+            "summary": "Verify password"
+        },
+        {
+            "summary": "API key generation (secure SHA256)"
+        },
+        {
+            "summary": "------------------------------------------------------ *  GLOBAL SHORTCUTS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  CLI SUPPORT * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ],
+    "Cache.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: CACHE (v1.0 \u2014 Finalized) * ====================================================== *  Hybrid caching engine for Redis + File system. *  Features: *   \u2705 Redis primary cache with file fallback *   \u2705 Namespaced cache keys (env-aware) *   \u2705 JSON-safe serialization *   \u2705 CLI-safe cache control commands *   \u2705 CorePanel integration ready * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Initialize cache system"
+        },
+        {
+            "summary": "Build key (namespaced)"
+        },
+        {
+            "summary": "Set cache value"
+        },
+        {
+            "summary": "Get cache value"
+        },
+        {
+            "summary": "Delete a cache key"
+        },
+        {
+            "summary": "Flush entire cache namespace"
+        },
+        {
+            "summary": "------------------------------------------------------ *  GLOBAL SHORTCUTS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  CLI SUPPORT COMMANDS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ],
+    "Docs.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: DOCS (v1.2 \u2014 Hardened & Bootstrap Safe) * ====================================================== *  Parses PHPDoc comments and builds a unified JSON API *  reference for the CorePanel documentation viewer. * *  Features: *   \u2705 Scans all PHP files in /core and /core/modules *   \u2705 Extracts summary, @param, @return, @throws, @example *   \u2705 Outputs structured JSON at /storage/docs/api.json *   \u2705 CLI command: php Docs.php generate *   \u2705 Function: generate_docs() *   \u2705 Works standalone (auto-bootstrap if needed) * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Generate documentation for all core and module files."
+        },
+        {
+            "summary": "Parse a single PHP file for PHPDoc comments."
+        },
+        {
+            "summary": "Parse an individual docblock into structured data."
+        },
+        {
+            "summary": "Save generated docs to JSON file."
+        }
+    ],
+    "Event.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: EVENT ENGINE (v1.1 \u2014 Fixed) * ====================================================== *  Reactive Event Dispatcher + Pub/Sub Bridge. *  Features: *   \u2705 In-memory + Redis Pub/Sub hybrid *   \u2705 Async-safe event dispatching *   \u2705 Dynamic listener registration *   \u2705 Cross-module signal routing (Router, Task, Auth) *   \u2705 CLI/Web unified *   \u2705 CorePanel ready for live telemetry * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Initialize the event system"
+        },
+        {
+            "summary": "Register an event listener"
+        },
+        {
+            "summary": "Dispatch an event (sync + async)"
+        },
+        {
+            "summary": "Listen for incoming Redis events (blocking)"
+        },
+        {
+            "summary": "Broadcast (with optional async task)"
+        },
+        {
+            "summary": "List all registered event listeners"
+        },
+        {
+            "summary": "------------------------------------------------------ *  GLOBAL SHORTCUTS (Fixed syntax) * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  CLI COMMANDS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  DEFAULT EVENT HOOKS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ],
+    "Inspector.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: INSPECTOR (v1.1 \u2014 Runtime Telemetry) * ====================================================== *  System diagnostics and performance telemetry engine. * ====================================================== *  Features: *   \u2705 CPU, Memory, Disk, and Uptime metrics *   \u2705 Redis & DB connectivity + latency check *   \u2705 Module, Cache, Event, and Task stats *   \u2705 JSON output for CorePanel integration *   \u2705 CLI support: inspect:core, inspect:db, inspect:tasks, inspect:all * ====================================================== *  Author: Architect * ======================================================"
+        }
+    ],
+    "Model.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: MODEL (v1.0 \u2014 Final) * ====================================================== *  Lightweight ORM engine for database abstraction. *  Features: *   \u2705 Safe MySQL query builder (PDO-based) *   \u2705 Model-style interface (find, save, delete, where) *   \u2705 Automatic table mapping by class name *   \u2705 JSON + Array serialization *   \u2705 Integrated logging and exception safety *   \u2705 Works in CLI and Web modes * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "PDO instance"
+        },
+        {
+            "summary": "Initialize DB connection"
+        },
+        {
+            "summary": "Table name resolver"
+        },
+        {
+            "summary": "Find record by ID"
+        },
+        {
+            "summary": "Where query (returns array of models)"
+        },
+        {
+            "summary": "Save record (insert or update)"
+        },
+        {
+            "summary": "Delete record"
+        },
+        {
+            "summary": "Fill model with attributes"
+        },
+        {
+            "summary": "Magic getter"
+        },
+        {
+            "summary": "Magic setter"
+        },
+        {
+            "summary": "Export as array"
+        },
+        {
+            "summary": "JSON serialization"
+        },
+        {
+            "summary": "------------------------------------------------------ *  CLI TEST SUPPORT * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ],
+    "Router.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: ROUTER (v1.3 \u2014 Final Stable) * ====================================================== *  Universal routing system for both Web & CLI. *  Features: *   \u2705 HTTP + CLI route dispatch *   \u2705 Middleware support (global + path-based) *   \u2705 Secure API handling via CUSTOM_TOKEN *   \u2705 Auto JSON response for APIs *   \u2705 Integrated logging + exception protection *   \u2705 CorePanel integration ready * ======================================================"
+        },
+        {
+            "summary": "Register a GET route (Web + CLI safe)"
+        },
+        {
+            "summary": "Register a POST route"
+        },
+        {
+            "summary": "Register a CLI-only route"
+        },
+        {
+            "summary": "Register middleware"
+        },
+        {
+            "summary": "Dispatch current request"
+        },
+        {
+            "summary": "404 handler"
+        },
+        {
+            "summary": "Exception handler"
+        },
+        {
+            "summary": "Secure API Gateway (requires CUSTOM_TOKEN)"
+        },
+        {
+            "summary": "------------------------------------------------------ *  GLOBAL SHORTCUTS (Fixed syntax for PHP 8+) * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ],
+    "Task.php": [
+        {
+            "summary": "====================================================== *  TRENCH CITY MODULE: TASK ENGINE (v1.0 \u2014 Final) * ====================================================== *  Asynchronous job runner + cron-safe task scheduler. *  Features: *   \u2705 Redis-backed queue with persistence *   \u2705 In-memory + file fallback *   \u2705 Scheduled task registration (CRON-style) *   \u2705 CLI-safe execution (php Task.php run) *   \u2705 CorePanel-compatible telemetry *   \u2705 Exception-safe + logging integrated * ====================================================== *  Author: Architect * ======================================================"
+        },
+        {
+            "summary": "Initialize Task Engine"
+        },
+        {
+            "summary": "Register a scheduled task"
+        },
+        {
+            "summary": "Queue a background job"
+        },
+        {
+            "summary": "Process queued jobs"
+        },
+        {
+            "summary": "Pop next job from queue"
+        },
+        {
+            "summary": "List all registered tasks"
+        },
+        {
+            "summary": "------------------------------------------------------ *  GLOBAL SHORTCUTS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  CLI CONTROL COMMANDS * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  DEFAULT SYSTEM TASKS (Examples) * ------------------------------------------------------"
+        },
+        {
+            "summary": "------------------------------------------------------ *  BOOT MESSAGE * ------------------------------------------------------"
+        }
+    ]
+}

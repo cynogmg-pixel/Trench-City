@@ -1,0 +1,126 @@
+/* Trench City V2 - Global scaffold */
+@import url("/assets/css/tc-tokens.css");
+@import url("/assets/css/tc-themes.css");
+@import url("/assets/css/tc-components.css");
+@import url("/assets/css/tc-layout.css");
+
+body.tc-app {
+    position: relative;
+    background-color: var(--tc-bg-page);
+    overflow-x: hidden;
+}
+
+html[data-theme='light'] body.tc-app {
+    color: var(--tc-grey-900);
+    background-color: #f5f7fb;
+}
+
+body.tc-app::before,
+body.tc-app::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+}
+
+body.tc-app::before {
+    background:
+        linear-gradient(165deg, rgba(5, 7, 11, 0.38) 0%, rgba(5, 7, 11, 0.5) 100%),
+        url("/assets/imgs/london.jpg") center/cover no-repeat,
+        url("/assets/imgs/london.jpeg") center/cover no-repeat;
+}
+
+html[data-theme='light'] body.tc-app::before {
+    background:
+        url("/assets/imgs/london.jpg") center/cover no-repeat,
+        url("/assets/imgs/london.jpeg") center/cover no-repeat;
+}
+
+body.tc-app::after {
+    display: none;
+}
+
+html[data-theme='light'] body.tc-app::after {
+    display: none;
+}
+
+/* Gritty grain & vignette overlay - applied globally to all pages */
+body.tc-app {
+    position: relative;
+}
+
+body.tc-app > .tc-app-shell::before,
+body.tc-prelogin > .page::before {
+    display: none;
+}
+
+.tc-app-shell,
+.tc-app-shell * {
+    box-sizing: border-box;
+}
+
+.tc-page h1,
+.tc-page-title {
+    letter-spacing: var(--tc-tracking-tight);
+}
+
+.tc-lock-message {
+    color: var(--tc-text-secondary);
+    font-size: var(--tc-text-base);
+}
+
+.tc-lock-subtext {
+    color: var(--tc-text-muted);
+    font-size: var(--tc-text-sm);
+}
+
+.tc-button-row .btn {
+    min-width: 140px;
+}
+
+.tc-main-column .card,
+.tc-main-column .tc-card {
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    backdrop-filter: blur(12px);
+}
+
+.tc-main-column .tc-card + .tc-card {
+    margin-top: var(--tc-space-lg);
+}
+
+.tc-sidebar-link .tc-sidebar-icon {
+    font-size: 0.85rem;
+    letter-spacing: 0;
+}
+
+.tc-sidebar-info .tc-mini-bar-track {
+    background: rgba(255, 255, 255, 0.33);
+}
+
+.tc-sidebar-info .tc-mini-bar-fill {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.tc-sidebar-info .tc-mini-bar-header span:last-child {
+    color: var(--tc-text-secondary);
+}
+
+.tc-app-shell a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .tc-page {
+        padding: var(--tc-space-lg) var(--tc-space-md);
+    }
+
+    .tc-page-title {
+        font-size: var(--tc-text-2xl);
+    }
+}
+
+
+
+
+
